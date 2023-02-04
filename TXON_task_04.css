@@ -1,0 +1,290 @@
+
+body{
+    background-color: rgb(206, 173, 131);
+    color: whitesmoke;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/picofme.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo1{
+    height: 120px;
+    width: 90px;
+    border-radius: 15px;
+    border-style: double;
+    border-width: 8px;
+    border-color: rgb(232, 122, 140);
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+    color: aquamarine;
+    margin-left: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+    color: yellow;
+}
+/*about*/
+.profile{
+    height: 80vh;
+    width: 60vw;
+    border-radius: 15px;
+    border-width: 10px;
+    border-style: double;
+    border-color: rgb(232, 122, 140);
+}
+#about{
+    padding: 80px 0;
+    color: aquamarine;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.aboutme{
+    font-size: 50px;
+}
+.para3{
+    color: rgb(232, 122, 140);
+    font-size: 35px;
+    margin-top: 30PX;
+}
+
+
+.bg-container1 {
+    background-color: whitesmoke;
+    height: 50vh;
+    background-size: cover;
+}
+
+.colwhead1 {
+    color: rgb(232, 122, 140);
+    font-size: 25px;
+}
+
+.colg {
+    color: rgb(232, 122, 140);
+    font-size: 35px;
+}
+
+.colylhead {
+    color: aquamarine;
+    font-size: 50px;
+    background-color: rgb(206, 173, 131);
+}
+
+.card122 {
+    background-color: yellow;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: aquamarine;
+    padding-left: 15px;
+    margin-bottom: 20px;
+
+}
+
+.img1coly {
+    height: 70px;
+    width: 80px;
+    background-color: rgb(232, 122, 140);
+    padding-bottom: 15px;
+    padding-right: 10px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.head {
+    font-size: 25px;
+}
+
+.head1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.para {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+.bg-container {
+    background-color: #323f4b;
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+}
+
+.img2 {
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.head1 {
+    color: #cced00;
+    font-size: 30px;
+}
+
+.head2 {
+    color: white;
+}
+
+.paragraph {
+    color: white;
+}
+
+.head12 {
+    color: aquamarine;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.bg-col {
+    background-color: #1f2933;
+    height: 100vh;
+    background-size: cover;
+}
+
+.img1 {
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.card1 {
+    background-color: yellow;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    margin: 30px;
+}
+
+.para1 {
+    color: rgb(232, 122, 140);
+    font-weight: 900;
+    padding-bottom: 5px;
+    padding-left: 25px;
+
+}
+.maincard{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg {
+    background-color: rgb(206, 173, 131);
+    background-size: cover;
+    width: 100vw;
+}
+
+
+
+
+.img19 {
+    border-radius: 30px;
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.bg-co {
+    background-color: rgb(206, 173, 131);
+    height: 40vh;
+    background-size: cover;
+}
+
+.colg {
+    color: rgb(232, 122, 140);
+}
+
+.coly4 {
+    color: yellow;
+}
+
+.foo {
+    background-color: #001C32;
+}
+
+.icon1 {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.al {
+    text-align: center;
+}
+
+
+
+/*project*/
+.bg-containerr {
+    background-color: whitesmoke;
+    height: 60vh;
+    background-size: cover;
+}
+
+.img1r {
+    height: 150px;
+    width: 290px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.colyr {
+    color: aquamarine;
+    background-color: rgb(206, 173, 131);
+}
+
+.colgr {
+    color: rgb(232, 122, 140);
+}
+
+.colwr {
+    color: aquamarine;
+}
+
+.card1r {
+    background-color: yellow;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+
+/*resume*/
+.resume{
+    background-color: #001C32;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: underline;
+    margin: 10px;
+}
+.linkedin{
+    background-color: #001C32;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: underline;
+    margin: 10px;
+}
